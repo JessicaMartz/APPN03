@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card-header h2, .card-header h4 {
+  margin-bottom: 0;
+}
+
+#hotelList {
+  display: none;
+}
+
+#reservationSection {
+  display: none;
+}
+
+#reservationForm {
+  margin-bottom: 0;
+}
+
+#reservationStatus {
+  font-weight: bold;
+}
+
+#reservationStatus.success {
+  color: #28a745;
+}
+
+#reservationStatus.error {
+  color: #dc3545;
+}
